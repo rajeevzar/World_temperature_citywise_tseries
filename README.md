@@ -1,6 +1,6 @@
 # Ground Temperature Analysis (1960-2024)
 
-This project analyzes the evolution of ground temperature between 1960 and 2024, leveraging data from meteorological sites within a specified region. It uses Python for data processing, visualization, and statistical analysis to understand temperature trends.
+In this project I analyzed the evolution of ground temperature between 1960 and 2024, using data from meteorological sites around the world. It uses Python for data processing, visualization, and statistical analysis to understand temperature trendsin these ~64 years of data. 
 
 ---
 
@@ -28,7 +28,7 @@ This project requires the following Python libraries:
 - `scipy`
 - `IPython`
 - Custom module: `get_coords` (for retrieving city coordinates)
-- Custom module: `bootstrap_err` (for bootstrap analysis)
+- Custom module: `bootstrap_err` (for bootstrap analysis on the rate of temperature change: degrees/yr)
 
 Install dependencies using:
 
@@ -42,7 +42,7 @@ pip install numpy pandas matplotlib plotly folium geopy scipy ipython
 
 1. Clone the repository and navigate to the project directory.
 
-2. Ensure the input data files are available in the specified paths:
+2. Ensure the input data files are available in the specified paths (you can download them usin the Google Drive Link):
 
    - Site metadata file: `ghcnm.tavg.v4.0.1.20250108.qcf.inv`
    - Temperature data file: `ghcnm.tavg.v4.0.1.20250108.qcf.dat`
