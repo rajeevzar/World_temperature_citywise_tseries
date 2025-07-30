@@ -1,6 +1,6 @@
 # Ground Temperature Analysis (1960-2024)
 
-In this project I analyzed the evolution of ground temperature between 1960 and 2024, using data from meteorological sites around the world. It uses Python for data processing, visualization, and statistical analysis to understand temperature trendsin these ~64 years of data. 
+In this project I analyzed the evolution of ground temperature between 1960 and 2024, using data from meteorological sites around the world. It uses Python for data processing, visualization, and statistical analysis to understand temperature trendsin these ~64 years of data. The full project has been deployed @ https://rajeev17.pythonanywhere.com/
 
 ---
 
